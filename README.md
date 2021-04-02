@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # WhatsApp-Bulk-Message-Sender
 The tool to send bulk message on your contact list from https://web.whatsapp.com
 Just open the file with Python3 like me on video
@@ -27,3 +28,7 @@ Show on Youtube : https://youtu.be/56lU2kPjSKI
     <img src="https://www.iconsdb.com/icons/preview/black/youtube-4-xxl.png" width="40" height="40">
   </a>
 </p>
+=======
+# wtsapp_sender
+bulk sender for care project
+>>>>>>> c96f940e567df43c65219b7ee3b6d7d817fb5aae
