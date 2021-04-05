@@ -34,7 +34,7 @@ layout = [ [sg.Text('Pls select your chrome driver (for message sending)')],
              sg.Text("Pls contact FM for any bugs.")]]
 
 # Create the Window
-window = sg.Window('Care Project Whatapps Sender - v6', layout)
+window = sg.Window('Care Project Whatapps Sender - v6.1', layout)
 
 def main():
     class WhatsappBot:
@@ -212,10 +212,10 @@ while True:
             messagesss = str(",%0aThank you for your support to “COVID-19 vaccines Adverse events Response and Evaluation (CARE) Programme: Intensive Monitoring” of the Department of Pharmacology and Pharmacy, HKU. We are following up on vaccine recipients about any adverse reactions you have. We will follow-up on the 1, 2, 3 days and 1, 2, 4 weeks after your dose of vaccine.%0a-------%0aWe sent out the online survey link to you via SMS or email this morning. The survey will only take 2 minutes. It would be appreciated if you can spare a few minutes to let us know your current conditions. %0a-------%0a*Or you can also reply with your adverse reactions or reply “No adverse reactions or unusual symptoms” to our WhatsApp to complete the survey.*%0a---------%0a*Please disregard this message if you have already completed the survey.* Thank you for your time and participation.%0a---------%0aAll data collected will be used for research anonymously.%0aAs a token of appreciation, you will receive an HKD50 supermarket e-voucher upon completion of first dose surveys, and another HKD100 supermarket e-voucher after the completion of second dose surveys.%0aPlease do not hesitate to contact us at email: carehk@hku.hk, phone:2831 5110, or reply our WhatsApp with any questions you may have.")
         elif values["-C3-"]==True:
             message_head = str("尊敬的 ")
-            messagesss = str("先生/女士：%0a因應第二劑疫苗的新安排，麻煩請回答以下問題，以助我們更新紀錄。%0a%0a請問您 *是否已經* 接種了 *第二劑* 新冠疫苗？%0a--> 如未有，請回答 *「未」*。%0a%0a--> 如 *已經接種*，請回答以下問題：   %0a1. *第二劑接種日期：*%0a2. *任何異常反應* 或回覆 *'沒有異常反應或特別症狀'* %0a%0a非常感謝您的時間和參與！")
+            messagesss = str("先生/女士：%0a因應第二劑疫苗的新安排，麻煩請回答以下問題，以助我們更新紀錄。%0a%0a請問您 *是否已經* 接種了 *第二劑* 新冠疫苗？%0a--> 如未有，請回答 %0a1.*「未」*%0a2. *第二劑接種日期:* %0a%0a--> 如 *已經接種*，請回答以下問題：%0a1. *第二劑接種日期：*%0a2. *任何異常反應* 或回覆 *'沒有異常反應或特別症狀'* %0a%0a非常感謝您的時間和參與！")
         elif values["-C4-"]==True:
             message_head = str("Dear ")
-            messagesss = str(",%0aTo allow arrangement for follow-up on your second-dose, please reply with the following information, so that we can update our record. %0a%0a *Have you received second dose of COVID-19 vaccine?* %0a--> If _*not yet*_, please answer *'not yet'*.%0a%0a--> If _*yes*_, please reply the following:%0a1. *Date* of your second dose:%0a2. *Any adverse reactions* or reply *'No adverse reactions or unusual symptoms'* %0a%0aThank you for your time and participation.")
+            messagesss = str(",%0aTo allow arrangement for follow-up on your second-dose, please reply with the following information. %0a%0a*Have you received second dose of COVID-19 vaccine?* %0a--> If _*not*_, please answer the following:%0a1. *'Not yet'* %0a2. *Date* of your second dose:%0a%0a--> If _*yes*_, please reply the following:%0a1. *Date* of your second dose:%0a2. *Any adverse reactions* or reply *'No adverse reactions or unusual symptoms'* %0a%0aThank you for your time and participation.")
         t1 = int(values['-Slider1-'])
         #t2 = int(values['-Slider2-'])
         #t3 = int(values['-Slider3-'])
